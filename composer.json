@@ -1,0 +1,29 @@
+{
+    "name": "grace/wise",
+    "description": "dev",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shampeak",
+            "email": "shampeak@sina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.5.9",
+        "ext-mbstring" : "*"
+    },
+    "require-dev": {
+    },
+    "autoload":{
+        "files": ["src/Helper.php"],
+        "psr-4":{
+            "Grace\\": "src"
+        }
+    }
+
+
+
+}
+
